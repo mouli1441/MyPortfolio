@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+
 import {
     car,
     contact,
@@ -86,36 +86,34 @@ export const skills = [
 export const experiences = [
     {
         title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
+        company_name: "AISTech",
+        icon: react,
         iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
+        date: "Sept 2022 - Dec 2022",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Create the website architecture",
+            "Designing and Managing the website",
+            "Generating the landing page and making clean code",
+            "Trouble shooting content issues and conducting training with the clients",
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
+        title: "Web Content Writer",
+        company_name: "CodeBusted",
+        icon: react,
         iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
+        date: "Dec 2021 - Feb 2022",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Data-entry and data processing in Technical background or web related topics  ",
+            
         ],
     },
     {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
+        title: "Front-end Web Developer",
+        company_name: "Quantumhunts",
+        icon: javascript,
         iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
+        date: "Dec 2021 - Jan 2022",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -123,36 +121,24 @@ export const experiences = [
             "Participating in code reviews and providing constructive feedback to other developers.",
         ],
     },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
+   
 ];
 
 export const socialLinks = [
     {
         name: 'Contact',
         iconUrl: contact,
-        link: '/contact',
+        link: '/contacts',
     },
     {
         name: 'GitHub',
         iconUrl: github,
-        link: 'https://github.com/YourGitHubUsername',
+        link: 'https://github.com/mouli1441',
     },
     {
         name: 'LinkedIn',
         iconUrl: linkedin,
-        link: 'https://www.linkedin.com/in/YourLinkedInUsername',
+        link: 'https://www.linkedin.com/in/moulisree-karmakar21/',
     }
 ];
 
@@ -160,43 +146,43 @@ export const projects = [
     {
         iconUrl: pricewise,
         theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
+        name: 'Whatsapp Web Clone',
+        description: 'Developed a WhatsApp clone using React, Firebase, and Firestore, enabling real-time messaging, group chats, media sharing, and authentication, mirroring the functionality of the popular messaging app for seamless communication.',
+        link: 'https://github.com/mouli1441/Whatsapp-Web-Clone',
     },
     {
         iconUrl: threads,
         theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
+        name: 'Ecommerce Website',
+        description: 'Built an eCommerce website with React.js, incorporating features such as product browsing, user authentication, secure payment processing, and order management for a seamless online shopping experience.',
+        link: 'https://github.com/mouli1441/Ecommerce',
     },
     {
         iconUrl: car,
         theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
+        name: 'Telegram Web clone ',
+        description: 'Created a Telegram web clone using React and Firebase, replicating key features such as messaging, group chats, and media sharing for a seamless communication experience.',
+        link: 'https://github.com/mouli1441/Telegram-clone',
     },
     {
         iconUrl: snapgram,
         theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
+        name: 'Weather App',
+        description: 'Developed and built a weather app in JavaScript that provides current weather information based on user location, featuring dynamic updates and intuitive user interface.',
+        link: 'https://github.com/mouli1441/Weather-app',
     },
     {
         iconUrl: estate,
         theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
+        name: 'To-Do-List',
+        description: 'Developed a to-do list application using JavaScript, allowing users to add, complete, and delete tasks with a simple and intuitive interface for effective task management.',
+        link: 'https://github.com/mouli1441/To-Do-List',
     },
     {
         iconUrl: summiz,
         theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
+        name: 'Quiz App JS',
+        description: 'Created a JavaScript quiz app where users can test their knowledge with multiple-choice questions, providing instant feedback on correct and incorrect answers. Utilized DOM manipulation and event handling to dynamically render questions and responses, enhancing user interaction and engagement.',
+        link: 'https://github.com/mouli1441/Quiz-app-JS',
     }
 ];
