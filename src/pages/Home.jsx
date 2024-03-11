@@ -106,7 +106,6 @@ const Home = () => {
         </Suspense>
       </Canvas>
 
-      {/* sound on and off */}
       <div className="absolute bottom-2 left-2">
         <img
           src={!isPlayingMusic ? soundoff : soundon}
