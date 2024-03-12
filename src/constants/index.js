@@ -88,7 +88,7 @@ export const experiences = [
         title: "React.js Developer",
         company_name: "AISTech",
         icon: react,
-        iconBg: "#accbe1",
+        iconBg: "#ffffff",
         date: "Sept 2022 - Dec 2022",
         points: [
             "Create the website architecture",
@@ -101,7 +101,7 @@ export const experiences = [
         title: "Web Content Writer",
         company_name: "CodeBusted",
         icon: react,
-        iconBg: "#fbc3bc",
+        iconBg: "#ffffff",
         date: "Dec 2021 - Feb 2022",
         points: [
             "Data-entry and data processing in Technical background or web related topics  ",
@@ -112,7 +112,7 @@ export const experiences = [
         title: "Front-end Web Developer",
         company_name: "Quantumhunts",
         icon: javascript,
-        iconBg: "#b7e4c7",
+        iconBg: "#ffffff",
         date: "Dec 2021 - Jan 2022",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
